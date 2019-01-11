@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.rb_phone_book:
                         changeFragment(PhoneBookFragment.class.getName());
                         break;
-                    case R.id.rb_find:
-                        changeFragment(FindFragment.class.getName());
-                        break;
+//                    case R.id.rb_find:
+//                        changeFragment(FindFragment.class.getName());
+//                        break;
                     case R.id.rb_me:
                         changeFragment(MeFragment.class.getName());
                         break;
@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 fragment = ChatFragment.newInstance(encryption_user,login_user,login_password);
             } else if (tag.equals(PhoneBookFragment.class.getName())) {
                 fragment = PhoneBookFragment.newInstance();
-            } else if (tag.equals(FindFragment.class.getName())) {
-                fragment = FindFragment.newInstance();
+//            } else if (tag.equals(FindFragment.class.getName())) {
+//                fragment = FindFragment.newInstance();
             } else if (tag.equals(MeFragment.class.getName())) {
                 Intent me_intent = getIntent();
                 login_name = me_intent.getStringExtra("login_name");

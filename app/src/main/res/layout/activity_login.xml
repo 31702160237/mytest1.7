@@ -11,7 +11,7 @@
         android:layout_height="70dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:background="@drawable/head"/>
+        android:background="@drawable/ddd"/>
 
     <LinearLayout
         android:id="@+id/ll_number"

@@ -32,7 +32,7 @@
                 android:divider="@null"
                 android:stackFromBottom="true"
                 android:transcriptMode="alwaysScroll"
-                android:background="@drawable/timg">
+                android:background="@drawable/ttt">
 
             </ListView>
 
